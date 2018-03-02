@@ -1,0 +1,38 @@
+body {
+  width: 500px;
+  min-height: 200px;
+}
+
+input#char-num {
+  width: 100px;
+}
+
+button.btn-generate {
+  margin-left: 10px;
+}
+
+.output {
+  margin-top: 10px;
+}
+
+textarea.output-content {
+  display: block;
+  margin: 5px 1px 0px 0px;
+  width: 495px;
+  height: 200px;
+  overflow-y: auto;
+  white-space: pre-line;
+}
+
+#label-copied {
+  padding: 2px 5px;
+  border: 1px dashed #dbe4ec;
+  border-radius: 2px;
+  color: #1885e4;
+  float: right;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lorem Ipsum Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="site.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="input">
+      <span>Generate</span>
+      <input type="number" name="count" id="count" value="20" min="1">
+      <select name="unit" id="unit">
+        <option value="word">words</option>
+        <option value="sentences">sentences</option>
+        <option value="paragraphs">paragraphs</option>
+      </select>
+      <button class="btn-generate" id="btn-generate">Generate</button>
+    </div>
+
+    <div class="output">
+      <button class="btn-copy" id="btn-copy">Copy</button>
+      <span id="label-copied" class="hide">Copied</span>
+      <textarea class="output-content" id="output-content">Loading...</textarea>
+    </div>
+  </div>
+</body>
+<script src="bundle.js"></script>
+
+</html>

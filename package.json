@@ -1,0 +1,23 @@
+{
+  "name": "lipsum-crx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trieudh58/lipsum-crx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trieudh58/lipsum-crx/issues"
+  },
+  "homepage": "https://github.com/trieudh58/lipsum-crx#readme",
+  "dependencies": {
+    "lorem-ipsum": "^1.0.4"
+  }
+}
