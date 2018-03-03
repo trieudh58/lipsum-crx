@@ -14,7 +14,7 @@
     <div class="input">
       <input type="number" name="count" id="count" value="20" min="1">
       <select name="unit" id="unit">
-        <option value="word">words</option>
+        <option value="words">words</option>
         <option value="sentences">sentences</option>
         <option value="paragraphs">paragraphs</option>
       </select>
@@ -25,6 +25,26 @@
       <textarea class="output-content" id="output-content">Loading...</textarea>
     </div>
     <span id="label-copied" class="hidden">Copied to clipboard!</span>
+    <div class="shortcut-instructions">
+      <button class="btn btn-link" id="btn-toggle-instructions">Command instructions</button>
+      <div class="instructions hidden" id="instructions">
+        <p>Generate text into editable elements by typing the following syntax, then press Ctrl key</p>
+        <ul>
+          <li>
+            <span class="text-bold">lswN</span>
+            <span>: generate N words (Eg: lsw5, lsw20,...)</span>
+          </li>
+          <li>
+            <span class="text-bold">lssN</span>
+            <span>: generate N sentences (Eg: lss3, lss15,...)</span>
+          </li>
+          <li>
+            <span class="text-bold">lspN</span>
+            <span>: generate N paragraphs (Eg: lsp2, lsp4,...)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </body>
 <script src="dist/bundle.js"></script>
