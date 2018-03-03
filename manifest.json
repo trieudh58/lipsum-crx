@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Lorem Ipsum Generator",
-  "description": "",
+  "description": "Populate lorem ipsum with ligtening speed",
   "version": "1.0",
   "browser_action": {
     "default_icon": "icon.png",
@@ -15,7 +15,7 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["inject.js"]
+      "js": ["dist/inject.js"]
     }
   ]
 }

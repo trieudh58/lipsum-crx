@@ -12,23 +12,21 @@
 <body>
   <div class="wrapper">
     <div class="input">
-      <span>Generate</span>
       <input type="number" name="count" id="count" value="20" min="1">
       <select name="unit" id="unit">
         <option value="word">words</option>
         <option value="sentences">sentences</option>
         <option value="paragraphs">paragraphs</option>
       </select>
-      <button class="btn-generate" id="btn-generate">Generate</button>
+      <button class="btn-generate-and-copy" id="btn-generate-and-copy">Generate & Copy</button>
     </div>
 
     <div class="output">
-      <button class="btn-copy" id="btn-copy">Copy</button>
-      <span id="label-copied" class="hide">Copied</span>
       <textarea class="output-content" id="output-content">Loading...</textarea>
     </div>
+    <span id="label-copied" class="hidden">Copied to clipboard!</span>
   </div>
 </body>
-<script src="bundle.js"></script>
+<script src="dist/bundle.js"></script>
 
 </html>

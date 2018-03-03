@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "browserify bundle.js > dist/bundle.js && browserify inject.js > dist/inject.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/trieudh58/lipsum-crx#readme",
   "dependencies": {
-    "lorem-ipsum": "^1.0.4"
+    "lorem-ipsum": "^1.0.4",
+    "uuid": "^3.2.1"
   }
 }
